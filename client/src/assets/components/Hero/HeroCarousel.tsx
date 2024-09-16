@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 import "./HeroCarousel.css";
 
 // import required modules
-import { Autoplay, EffectFade, Navigation } from "swiper/modules";
+import { Autoplay, EffectFade } from "swiper/modules";
 import SubHero from "./subHero/SubHero";
 import { FaFaceAngry, FaUser } from "react-icons/fa6";
 import { AiFillThunderbolt } from "react-icons/ai";
