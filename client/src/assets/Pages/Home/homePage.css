@@ -1,0 +1,10 @@
+.heroGreenSection {
+  background: var(--primary-green);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.bodyWhiteSection {
+  background: var(--primary-white);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

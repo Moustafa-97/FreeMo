@@ -1,0 +1,29 @@
+/* HeroCarousel.css */
+
+.swiper {
+  height: 60vh;
+}
+.swiper img {
+  object-fit: cover;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.subHero {
+  display: flex;
+  gap: 10px;
+  height: 13vh;
+}
+
+.secSubHero {
+  margin: 40px auto;
+  width: 100%;
+  height: 20vh;
+}
+@media screen and (max-width: 768px) {
+  .subHero {
+    flex-direction: column;
+    height: auto;
+  }
+}

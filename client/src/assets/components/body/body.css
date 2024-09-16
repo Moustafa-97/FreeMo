@@ -1,0 +1,52 @@
+.body {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr .6fr;
+  grid-template-rows: max-content;
+  grid-template-areas: "longCard service";
+  gap: 5px;
+}
+.bodyLongCards {
+  grid-area: longCard;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.bodyLongCard {
+  height: 20vh;
+}
+.bodyLongCard,
+.bodySearchCard {
+  margin: 10px auto;
+  width: 100%;
+}
+
+.bodyService {
+  grid-area: service;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+.bodySubCard {
+  width: 100%;
+  height: 10vh;
+}
+
+@media screen and (max-width: 768px) {
+  .bodyLongCard {
+    height: auto;
+  }
+  .body {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "longCard"
+      "service";
+  }
+}

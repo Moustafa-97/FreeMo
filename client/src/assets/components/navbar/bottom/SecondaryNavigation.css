@@ -1,0 +1,22 @@
+/* SecondaryNavigation.css */
+.secondary-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  .secondary-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .icon-container {
+    display: flex;
+    gap: 10px;
+  }
+  

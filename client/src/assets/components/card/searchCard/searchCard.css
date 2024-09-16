@@ -1,0 +1,230 @@
+.searchCard {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 8px #00000033;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.searchCardHeader {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.379);
+}
+.searchCardFor {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: auto;
+}
+.searchCardCat {
+  width: auto;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  border: 1px solid rgba(0, 0, 0, 0.379);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  cursor: pointer;
+}
+.searchCardCat:hover {
+  transition: all 0.5s;
+  box-shadow: 1px 1px 8px #ffffff99;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.searchCardForIcon {
+  font-size: 25px;
+  margin: 10px auto;
+}
+.searchCardForTag {
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+}
+.searchCardForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.searchCardFormKeyword {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.searchCardFormKeyword label,
+.searchCardFormSelect label {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.searchCardFormKeyword input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--accent-lime);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.searchCardFormKeyword input:focus {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  box-shadow: 1px 1px 5px var(--accent-lime);
+  border: 1px solid var(--primary-teal);
+}
+.searchCardFormSelect {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.searchCardFormSelectCategory,
+.searchCardFormSelectStore {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.selectWraper select {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none; /* Remove default styling */
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
+  font-size: 16px;
+  cursor: pointer;
+
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--accent-lime);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.selectWraper select:focus {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  box-shadow: 1px 1px 5px var(--accent-lime);
+  border: 1px solid var(--primary-teal);
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: none;
+  /*Removedefaultstyling*/
+  -webkit-appearance: none;
+  /*ForSafari*/
+  -moz-appearance: none;
+  /*ForFirefox*/
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.selectWraper select option {
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+}
+
+.selectWraper select option:focus {
+  border-color: #009688;
+  outline: none;
+}
+.selectWraper {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+.selectWraper::after {
+  content: "▼"; /* Arrow symbol */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 12px;
+  color: #333;
+}

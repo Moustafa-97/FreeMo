@@ -1,0 +1,25 @@
+/* Navigation.css */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .search-container {
+    position: relative;
+  }
+  
+  .search-box {
+    width: 0;
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: 40px;
+  }
+  
+  .search-container .search-box {
+    width: 200px;
+  }
+  

@@ -1,0 +1,50 @@
+.card {
+  margin: 10px auto;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100%;
+  grid-template-columns: "iconz content";
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 8px #00000033;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.subIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: transparent;
+
+  width: 65%;
+  height: 90%;
+}
+.subIcon svg {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+.content {
+  grid-area: "content";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.contentHeader {
+  font-size: x-large;
+  margin: 5px auto;
+}
+.contentBody {
+  font-size: medium;
+  margin: 5px auto;
+}
